@@ -1,0 +1,72 @@
+.container-fluid {
+    position: relative;
+    top: 20%;
+}
+
+.adjust {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover
+}
+
+td {
+    height: 11vw;
+    width: 11vw;
+    color: #F8FEE0;
+    font-size: 9vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+table {
+    background-image: url(ttt1.png);
+    background-size: cover;
+}
+
+p {}
+
+#dialog {
+    text-align: center;
+    font-size: 12px;
+}
+
+md-button {
+    width: 50px;
+}
+
+md-dialog p {
+    text-align: center;
+    padding: 10px
+}
+
+div.btn-block {
+    display: block;
+    margin: auto;
+    width: 170px;
+}
+
+.dialog-btn {
+    width: 30px;
+    display: inline-block;
+    margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    td {
+        height: 25vw;
+        width: 25vw;
+        color: #F8FEE0;
+        font-size: 22vw;
+        text-align: center;
+        cursor: pointer;
+    }
+    .dialog-btn {
+        width: 40px;
+        display: inline-block;
+        margin: 10px;
+    }
+}
